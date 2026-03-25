@@ -1,5 +1,4 @@
 import bcrypt from "bcryptjs";
-import crypto from "crypto";
 
 export class OTPService {
   private static readonly SALT_ROUNDS = 12;
